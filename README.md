@@ -1,6 +1,5 @@
 
 
-````markdown
 # 📖 JavaScript Skill Test – Complete Revision Sheet
 
 ![JavaScript Banner](https://raw.githubusercontent.com/github/explore/main/topics/javascript/javascript.png)
