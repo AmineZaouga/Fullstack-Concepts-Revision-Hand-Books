@@ -1,3 +1,6 @@
+
+
+````markdown
 # 📖 JavaScript Skill Test – Complete Revision Sheet
 
 ![JavaScript Banner](https://raw.githubusercontent.com/github/explore/main/topics/javascript/javascript.png)
@@ -6,8 +9,8 @@
 [![Status](https://img.shields.io/badge/Status-Active-brightgreen)](#)  
 [![License](https://img.shields.io/badge/License-MIT-blue)](LICENSE)  
 [![Made with Love](https://img.shields.io/badge/Made%20with-Love-red?logo=heart)](#)  
-[![GitHub last commit](https://img.shields.io/github/last-commit/<YOUR_USERNAME>/<REPO_NAME>)](https://github.com/<YOUR_USERNAME>/<REPO_NAME>/commits/main)  
-[![GitHub repo size](https://img.shields.io/github/repo-size/<AmineZaouga>/<Fullstack-Concepts-Revision-Hand-Books>)](https://github.com/AmineZaouga/Fullstack-Concepts-Revision-Hand-Books)
+[![GitHub last commit](https://img.shields.io/github/last-commit/AmineZaouga/Fullstack-Concepts-Revision-Hand-Books)](https://github.com/AmineZaouga/Fullstack-Concepts-Revision-Hand-Books/commits/main)  
+[![GitHub repo size](https://img.shields.io/github/repo-size/AmineZaouga/Fullstack-Concepts-Revision-Hand-Books)](https://github.com/AmineZaouga/Fullstack-Concepts-Revision-Hand-Books)
 
 > A complete, one-stop revision file for JavaScript skill test topics.  
 > Includes clear explanations, icons, code examples, and MDN references for each subject.  
@@ -48,20 +51,23 @@ var name = "Amine"; // old syntax, avoid if possible
 
 age = 26;           // ✅ works
 // PI = 3.14;       // ❌ error
-Learn more: MDN Variables
+````
+
+**Learn more:** [MDN Variables](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Grammar_and_types#Declarations)
 
 Navigation:
-⬅️ Home | ➡️ Arrays →
+[⬅️ Home](#) | [➡️ Arrays →](#arrays)
+
+---
 
 <a name="arrays"></a>
 
-🍏 Arrays
-Explanation:
+## 🍏 Arrays
+
+**Explanation:**
 Arrays hold multiple values in a single variable.
 
-javascript
-Copier
-Modifier
+```javascript
 let fruits = ["apple", "banana", "cherry"];
 
 console.log(fruits[0]); // "apple"
@@ -72,20 +78,23 @@ fruits.shift();         // remove first element
 
 // Iterating
 fruits.forEach(fruit => console.log(fruit));
-Learn more: MDN Arrays
+```
+
+**Learn more:** [MDN Arrays](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
 
 Navigation:
-⬅️ Variables | ⬅️ Home | ➡️ Conditionals →
+[⬅️ Variables](#variables) | [⬅️ Home](#) | [➡️ Conditionals →](#conditionals)
+
+---
 
 <a name="conditionals"></a>
 
-🔀 Conditionals
-Explanation:
+## 🔀 Conditionals
+
+**Explanation:**
 Conditionals execute code blocks based on conditions.
 
-javascript
-Copier
-Modifier
+```javascript
 let score = 85;
 
 if (score >= 90) {
@@ -107,40 +116,46 @@ switch (color) {
   case "green": console.log("Go"); break;
   default: console.log("Wait");
 }
-Learn more: MDN Conditionals
+```
+
+**Learn more:** [MDN Conditionals](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Control_flow_and_error_handling#conditional_statements)
 
 Navigation:
-⬅️ Arrays | ⬅️ Home | ➡️ Events →
+[⬅️ Arrays](#arrays) | [⬅️ Home](#) | [➡️ Events →](#events)
+
+---
 
 <a name="events"></a>
 
-🖱️ Events
-Explanation:
+## 🖱️ Events
+
+**Explanation:**
 Events respond to user interactions (clicks, keypresses, form submissions, etc.).
 
-html
-Copier
-Modifier
+```html
 <button id="btn">Click Me</button>
 <script>
   document.getElementById("btn").addEventListener("click", () => {
     alert("Button clicked!");
   });
 </script>
-Learn more: MDN Events
+```
+
+**Learn more:** [MDN Events](https://developer.mozilla.org/en-US/docs/Web/Events)
 
 Navigation:
-⬅️ Conditionals | ⬅️ Home | ➡️ Functions →
+[⬅️ Conditionals](#conditionals) | [⬅️ Home](#) | [➡️ Functions →](#functions)
+
+---
 
 <a name="functions"></a>
 
-⚙️ Functions
-Explanation:
+## ⚙️ Functions
+
+**Explanation:**
 Functions are reusable blocks of code.
 
-javascript
-Copier
-Modifier
+```javascript
 // Function declaration
 function greet(name) {
   return `Hello, ${name}`;
@@ -157,20 +172,23 @@ const greet3 = name => `Hey, ${name}`;
 console.log(greet("Amine"));
 console.log(greet2("Amine"));
 console.log(greet3("Amine"));
-Learn more: MDN Functions
+```
+
+**Learn more:** [MDN Functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions)
 
 Navigation:
-⬅️ Events | ⬅️ Home | ➡️ JSON →
+[⬅️ Events](#events) | [⬅️ Home](#) | [➡️ JSON →](#json)
+
+---
 
 <a name="json"></a>
 
-📄 JSON
-Explanation:
+## 📄 JSON
+
+**Explanation:**
 JSON (JavaScript Object Notation) is a text format for storing and transmitting data.
 
-javascript
-Copier
-Modifier
+```javascript
 // JSON string
 let jsonString = '{"name":"Amine","age":25}';
 
@@ -181,20 +199,23 @@ console.log(obj.name); // "Amine"
 // Convert object to JSON string
 let str = JSON.stringify(obj);
 console.log(str);
-Learn more: MDN JSON
+```
+
+**Learn more:** [MDN JSON](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON)
 
 Navigation:
-⬅️ Functions | ⬅️ Home | ➡️ Loops →
+[⬅️ Functions](#functions) | [⬅️ Home](#) | [➡️ Loops →](#loops)
+
+---
 
 <a name="loops"></a>
 
-🔁 Loops
-Explanation:
+## 🔁 Loops
+
+**Explanation:**
 Loops execute code repeatedly while a condition is true.
 
-javascript
-Copier
-Modifier
+```javascript
 // For loop
 for (let i = 0; i < 3; i++) {
   console.log(i);
@@ -224,20 +245,23 @@ let person = {name: "Amine", age: 25};
 for (let key in person) {
   console.log(key, person[key]);
 }
-Learn more: MDN Loops and iteration
+```
+
+**Learn more:** [MDN Loops and iteration](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration)
 
 Navigation:
-⬅️ JSON | ⬅️ Home | ➡️ Math →
+[⬅️ JSON](#json) | [⬅️ Home](#) | [➡️ Math →](#math)
+
+---
 
 <a name="math"></a>
 
-🧮 Math
-Explanation:
-The Math object provides mathematical constants and functions.
+## 🧮 Math
 
-javascript
-Copier
-Modifier
+**Explanation:**
+The `Math` object provides mathematical constants and functions.
+
+```javascript
 console.log(Math.max(1, 5, 10));   // 10
 console.log(Math.min(1, 5, 10));   // 1
 console.log(Math.random());        // random between 0 and 1
@@ -248,20 +272,23 @@ console.log(Math.round(4.5));      // 5
 let x = 5;
 x++; // increment
 x--; // decrement
-Learn more: MDN Math
+```
+
+**Learn more:** [MDN Math](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math)
 
 Navigation:
-⬅️ Loops | ⬅️ Home | ➡️ Object Basics →
+[⬅️ Loops](#loops) | [⬅️ Home](#) | [➡️ Object Basics →](#object-basics)
+
+---
 
 <a name="object-basics"></a>
 
-🗂️ Object Basics
-Explanation:
+## 🗂️ Object Basics
+
+**Explanation:**
 Objects store data as key-value pairs.
 
-javascript
-Copier
-Modifier
+```javascript
 let person = {
   name: "Amine",
   age: 25,
@@ -274,20 +301,23 @@ console.log(person.name);
 person.city = "Berlin";
 delete person.age;
 person.greet();
-Learn more: MDN Objects
+```
+
+**Learn more:** [MDN Objects](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects)
 
 Navigation:
-⬅️ Math | ⬅️ Home | ➡️ Strings →
+[⬅️ Math](#math) | [⬅️ Home](#) | [➡️ Strings →](#strings)
+
+---
 
 <a name="strings"></a>
 
-🔤 Strings
-Explanation:
+## 🔤 Strings
+
+**Explanation:**
 Strings are sequences of characters.
 
-javascript
-Copier
-Modifier
+```javascript
 let str = " Hello World ";
 
 console.log(str.length);                // 13
@@ -299,20 +329,23 @@ console.log(str.indexOf("World"));      // 7
 console.log(str.slice(1, 5));           // "Hell"
 console.log(str.replace("World", "JS")) // " Hello JS "
 console.log("a,b,c".split(","));        // ["a", "b", "c"]
-Learn more: MDN Strings
+```
+
+**Learn more:** [MDN Strings](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)
 
 Navigation:
-⬅️ Object Basics | ⬅️ Home | ➡️ OOP in JavaScript →
+[⬅️ Object Basics](#object-basics) | [⬅️ Home](#) | [➡️ OOP in JavaScript →](#oop-in-javascript)
+
+---
 
 <a name="oop-in-javascript"></a>
 
-🏛️ OOP in JavaScript
-Explanation:
-JavaScript supports Object-Oriented Programming using classes, constructors, and prototypes.
+## 🏛️ OOP in JavaScript
 
-javascript
-Copier
-Modifier
+**Explanation:**
+JavaScript supports Object-Oriented Programming using **classes**, **constructors**, and **prototypes**.
+
+```javascript
 // Class syntax
 class Person {
   constructor(name, age) {
@@ -343,35 +376,39 @@ class Student extends Person {
 let s1 = new Student("Lina", 20, "A");
 s1.greet();
 s1.study();
-Learn more: MDN Classes
+```
+
+**Learn more:** [MDN Classes](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes)
 
 Navigation:
-⬅️ Strings | ⬅️ Home | ➡️ How to Use This Sheet →
-
-<a name="how-to-use-this-sheet"></a>
-
-📌 How to Use This Sheet
-Review each section before taking the JavaScript skill tests.
-
-Run the examples in your browser console or Node.js to understand behavior.
-
-Modify examples to explore variations.
-
-🤝 Contributing
-Contributions, issues, and feature requests are welcome!
-Feel free to fork the repo and submit a pull request.
-
-📜 License
-This project is licensed under the MIT License – see the LICENSE file for details.
-
-Author: Zaouga Amine
-Date: August 2025
-Purpose: Part of my GitHub JavaScript Knowledge Repository
-
-yaml
-Copier
-Modifier
+[⬅️ Strings](#strings) | [⬅️ Home](#) | [➡️ How to Use This Sheet →](#how-to-use-this-sheet)
 
 ---
 
+<a name="how-to-use-this-sheet"></a>
+
+## 📌 How to Use This Sheet
+
+1. Review each section before taking the **JavaScript skill tests**.
+2. Run the examples in your browser console or Node.js to understand behavior.
+3. Modify examples to explore variations.
+
+---
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+Feel free to fork the repo and submit a pull request.
+
+---
+
+## 📜 License
+
+This project is licensed under the MIT License – see the [LICENSE](LICENSE) file for details.
+
+---
+
+**Author:** Zaouga Amine
+**Date:** August 2025
+**Purpose:** Part of my GitHub JavaScript Knowledge Repository
 
